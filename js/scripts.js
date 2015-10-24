@@ -1,3 +1,3 @@
-var beerInput = function (beerWall) {
-  return beerWall - 1;
+var beerSong = function (beers) {
+  return beers - 1;
 };
