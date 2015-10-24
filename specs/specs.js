@@ -1,10 +1,10 @@
 describe('beerSong', function(){
-  it("Counts down from the user's input", function(){
-    expect(beerSong(99)).to.equal(98);
+  it("Combines the user's input with the song verses", function(){
+    expect(beerSong(3)).to.equal("3 bottles of beer on the wall, 3 bottles of beer.");
   });
 
-  it("Combines the user's input with the song verses", function(){
-    expect(beerSong(3)).to.equal("3 bottles of beer on the wall, 3 bottles of beer. Take one down and pass it around, 2 bottles of beer on the wall.");
+  it("Counts down from the user's input", function(){
+    expect(beerSong(99)).to.equal("99 bottles of beer on the wall, 99 bottles of beer. Take one down and pass it around, 98 bottles of beer on the wall.");
   });
 
   it("Shows a different verse for the last input", function(){
